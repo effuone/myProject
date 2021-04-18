@@ -26,3 +26,18 @@ void drawRect(int width, int height)
 		cout << "*";
 	}
 }
+
+int roundDoubleArray(double* arr, int size)
+{
+	for (int i = 0; i < size; ++i)
+	{
+		if (arr[i] - (int)arr[i] > 0.5) {
+			cout << (int)arr[i] + 1 << " ";
+		}
+		else
+		{
+			cout << arr[i] - (arr[i] - (int)arr[i]) << " ";
+		}
+	}
+	return arr[size];
+}
