@@ -41,3 +41,14 @@ int roundDoubleArray(double* arr, int size)
 	}
 	return arr[size];
 }
+
+struct TwoVal
+{
+	int num1;
+	int num2;
+	TwoVal(int val1, int val2)
+	{
+		num1 = val1;
+		num2 = val2;
+	}
+};
