@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="classes.h" />
     <ClInclude Include="portfolio.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Point.cpp" />
     <ClCompile Include="tester.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

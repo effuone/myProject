@@ -18,9 +18,15 @@
     <ClCompile Include="tester.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="portfolio.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="classes.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
